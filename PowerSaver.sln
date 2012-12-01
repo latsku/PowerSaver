@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerSaverService", "PowerSaverService\PowerSaverService.csproj", "{B9C3ED7E-7C7E-4693-852F-3F84C29F6BA7}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{87D9A14B-E579-4705-A978-2BD9333C0C4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,8 @@ Global
 		{B9C3ED7E-7C7E-4693-852F-3F84C29F6BA7}.Debug|x86.Build.0 = Debug|x86
 		{B9C3ED7E-7C7E-4693-852F-3F84C29F6BA7}.Release|x86.ActiveCfg = Release|x86
 		{B9C3ED7E-7C7E-4693-852F-3F84C29F6BA7}.Release|x86.Build.0 = Release|x86
+		{87D9A14B-E579-4705-A978-2BD9333C0C4F}.Debug|x86.ActiveCfg = Debug
+		{87D9A14B-E579-4705-A978-2BD9333C0C4F}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
