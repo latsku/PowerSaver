@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Installer"
+"ProjectName" = "8:PowerSaver_Installer"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -49,6 +49,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -65,6 +86,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -74,7 +116,7 @@
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_6086DDA75FF341B2A27A26B9C656E705"
             {
             "Name" = "8:startPowerSaver.vbs"
-            "Condition" = "8:"
+            "Condition" = "8:True"
             "Object" = "8:_6BC145A706954A7EB01FBFF1FF24D30A"
             "FileType" = "3:4"
             "InstallAction" = "3:1"
@@ -88,7 +130,7 @@
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_7B97B272F0204BC4A9E41EA581E773DE"
             {
             "Name" = "8:stopPowerSaver.vbs"
-            "Condition" = "8:"
+            "Condition" = "8:True"
             "Object" = "8:_96D15B238FF2448AA1794C1A74E552A0"
             "FileType" = "3:4"
             "InstallAction" = "3:4"
@@ -228,20 +270,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Installer"
+        "ProductName" = "8:PowerSaver"
         "ProductCode" = "8:{180B16D5-4778-446B-A0C0-20F8FA9958F4}"
-        "PackageCode" = "8:{587C090D-4261-4CB2-9960-FEA9DE9401A1}"
+        "PackageCode" = "8:{B67A8EE9-1EE1-42D1-90E0-DF3827526C9E}"
         "UpgradeCode" = "8:{A3331039-1760-40A1-9516-E7EB508B92A1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:-"
+        "Manufacturer" = "8:PowerSaver"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Installer"
+        "Title" = "8:PowerSaver"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Lari Lehtomäki"
         "Keywords" = "8:"
@@ -359,7 +401,7 @@
                                                     "Condition" = "8:"
                                                     "Transitive" = "11:FALSE"
                                                     "ValueTypes" = "3:3"
-                                                    "Value" = "3:3"
+                                                    "Value" = "3:2"
                                                     }
                                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_D92EA48EA3F545F88ED95B58F1E0A439"
                                                     {
