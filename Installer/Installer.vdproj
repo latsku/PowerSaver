@@ -169,7 +169,7 @@
             "SourcePath" = "8:startPowerSaver.vbs"
             "TargetName" = "8:startPowerSaver.vbs"
             "Tag" = "8:"
-            "Folder" = "8:_06D6F494285D4DED9C505A75E747F6F6"
+            "Folder" = "8:_4ADD94A393C94207BF5F534F2C297169"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -180,7 +180,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -189,7 +189,7 @@
             "SourcePath" = "8:stopPowerSaver.vbs"
             "TargetName" = "8:stopPowerSaver.vbs"
             "Tag" = "8:"
-            "Folder" = "8:_06D6F494285D4DED9C505A75E747F6F6"
+            "Folder" = "8:_4ADD94A393C94207BF5F534F2C297169"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -200,7 +200,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
@@ -231,17 +231,6 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_06D6F494285D4DED9C505A75E747F6F6"
-                    {
-                    "Name" = "8:PowerSaver"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_B73EE347179D476A9A1531350611B02A"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_BB0C79E49B4645E99CF13EA9C81F0CD4"
@@ -417,7 +406,7 @@
                                                     "Condition" = "8:"
                                                     "Transitive" = "11:FALSE"
                                                     "ValueTypes" = "3:1"
-                                                    "Value" = "8:C:\\Program Files (x86)\\PowerSaver\\PowerSaver\\PowerSaver"
+                                                    "Value" = "8:C:\\Program Files (x86)\\PowerSaver\\PowerSaverService.exe"
                                                     }
                                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_FD94DEDBAAED4349988C9DE74CDC948C"
                                                     {
@@ -908,7 +897,7 @@
             "SourcePath" = "8:..\\PowerSaverService\\obj\\x86\\Release\\PowerSaverService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_06D6F494285D4DED9C505A75E747F6F6"
+            "Folder" = "8:_4ADD94A393C94207BF5F534F2C297169"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
