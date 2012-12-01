@@ -15,6 +15,18 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_6BC145A706954A7EB01FBFF1FF24D30A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_96D15B238FF2448AA1794C1A74E552A0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_FC2354728F02408D84146DEDE63F0394"
         "MsmSig" = "8:_UNDEFINED"
@@ -59,6 +71,34 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_6086DDA75FF341B2A27A26B9C656E705"
+            {
+            "Name" = "8:startPowerSaver.vbs"
+            "Condition" = "8:"
+            "Object" = "8:_6BC145A706954A7EB01FBFF1FF24D30A"
+            "FileType" = "3:4"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_8E892D8D_9B5C_4EE1_9BFC_2E73EBBC27B1"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_7B97B272F0204BC4A9E41EA581E773DE"
+            {
+            "Name" = "8:stopPowerSaver.vbs"
+            "Condition" = "8:"
+            "Object" = "8:_96D15B238FF2448AA1794C1A74E552A0"
+            "FileType" = "3:4"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_D86F3C2B_B397_46B7_BB0D_8E526D1B33A0"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -82,6 +122,46 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6BC145A706954A7EB01FBFF1FF24D30A"
+            {
+            "SourcePath" = "8:startPowerSaver.vbs"
+            "TargetName" = "8:startPowerSaver.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_06D6F494285D4DED9C505A75E747F6F6"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_96D15B238FF2448AA1794C1A74E552A0"
+            {
+            "SourcePath" = "8:stopPowerSaver.vbs"
+            "TargetName" = "8:stopPowerSaver.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_06D6F494285D4DED9C505A75E747F6F6"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -150,7 +230,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Installer"
         "ProductCode" = "8:{180B16D5-4778-446B-A0C0-20F8FA9958F4}"
-        "PackageCode" = "8:{EE1A76B6-2CCD-4D9F-8DC2-E48251312F8E}"
+        "PackageCode" = "8:{587C090D-4261-4CB2-9960-FEA9DE9401A1}"
         "UpgradeCode" = "8:{A3331039-1760-40A1-9516-E7EB508B92A1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
