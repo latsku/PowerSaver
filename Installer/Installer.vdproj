@@ -272,12 +272,12 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PowerSaver"
         "ProductCode" = "8:{180B16D5-4778-446B-A0C0-20F8FA9958F4}"
-        "PackageCode" = "8:{B67A8EE9-1EE1-42D1-90E0-DF3827526C9E}"
+        "PackageCode" = "8:{C5CC324C-DD71-4E65-89AA-1651727E0146}"
         "UpgradeCode" = "8:{A3331039-1760-40A1-9516-E7EB508B92A1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
-        "DetectNewerInstalledVersion" = "11:TRUE"
+        "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:PowerSaver"
@@ -417,7 +417,7 @@
                                                     "Condition" = "8:"
                                                     "Transitive" = "11:FALSE"
                                                     "ValueTypes" = "3:1"
-                                                    "Value" = "8:%PROGRAMFILES%\\PowerSaver\\PowerSaverService.exe"
+                                                    "Value" = "8:C:\\Program Files (x86)\\PowerSaver\\PowerSaver\\PowerSaver"
                                                     }
                                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_FD94DEDBAAED4349988C9DE74CDC948C"
                                                     {
